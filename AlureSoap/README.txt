@@ -47,5 +47,15 @@ I ADDED CONTENTS TO MY ABOUT PAGE
 
 3:38
 i initially created a different folder for the about me and the product Catelogue page
-but i was supposed to use the same home folder under the views so i created a new view razor empty page for my about us and the product catelogue page
+but i was supposed to use the same home folder under the views so i created a new view razor empty page for my about us and the product catelogue page under the views/home
 i decided to run the project again but i saw errors "the view index was not found"
+
+4:15
+i am still trying to fix the errors i can't really figure out where the errors are coming from
+
+4:30
+Ifound it!!!
+It was referencing to the index.cshtml file which was in the folder i deleted folder i removed 
+i went back to my home Controller to add the method that displays the content i have under my view folder (views/home/AboutUs.cshtml) and my (views/home/ProductCatelogue.cshtml) 
+Also i had to make changes in the shared layout.cshtml to change the controller to home instead of the file(ProductCatelogue.cs and AboutUs.cs )i previously had
+Good To Go!!!
