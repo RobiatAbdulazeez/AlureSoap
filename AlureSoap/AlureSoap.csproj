@@ -6,11 +6,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\AboutUs\**" />
+    <Compile Remove="Views\ProductCatelogue\**" />
+    <Content Remove="Views\AboutUs\**" />
+    <Content Remove="Views\ProductCatelogue\**" />
+    <EmbeddedResource Remove="Views\AboutUs\**" />
+    <EmbeddedResource Remove="Views\ProductCatelogue\**" />
+    <None Remove="Views\AboutUs\**" />
+    <None Remove="Views\ProductCatelogue\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.31" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.31" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.31" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.31" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.31" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\" />
   </ItemGroup>
 
 </Project>

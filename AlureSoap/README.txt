@@ -41,3 +41,11 @@ took break i will proceed to clean and rebuild my app
 proceeded to change the view and layout page
 to Add the AboutUs and The Product Catelogue Navigation in the home page
 which was acheived from the shared _layouthtml.cs file
+
+2:30
+I ADDED CONTENTS TO MY ABOUT PAGE
+
+3:38
+i initially created a different folder for the about me and the product Catelogue page
+but i was supposed to use the same home folder under the views so i created a new view razor empty page for my about us and the product catelogue page
+i decided to run the project again but i saw errors "the view index was not found"
