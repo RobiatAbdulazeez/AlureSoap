@@ -34,3 +34,10 @@ I created my Views For My About Us Page And The Product Catelogue Page To Create
 11:54
 I added some Content in MY About Us page to try if it will be displayed on the About Me page 
 YAYYY! It Worked
+12:26
+took break i will proceed to clean and rebuild my app 
+
+12:39
+proceeded to change the view and layout page
+to Add the AboutUs and The Product Catelogue Navigation in the home page
+which was acheived from the shared _layouthtml.cs file
