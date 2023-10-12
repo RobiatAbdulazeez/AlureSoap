@@ -8,12 +8,16 @@
   <ItemGroup>
     <Compile Remove="Views\AboutUs\**" />
     <Compile Remove="Views\ProductCatelogue\**" />
+    <Compile Remove="wwwroot\img\**" />
     <Content Remove="Views\AboutUs\**" />
     <Content Remove="Views\ProductCatelogue\**" />
+    <Content Remove="wwwroot\img\**" />
     <EmbeddedResource Remove="Views\AboutUs\**" />
     <EmbeddedResource Remove="Views\ProductCatelogue\**" />
+    <EmbeddedResource Remove="wwwroot\img\**" />
     <None Remove="Views\AboutUs\**" />
     <None Remove="Views\ProductCatelogue\**" />
+    <None Remove="wwwroot\img\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,7 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\img\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
 </Project>

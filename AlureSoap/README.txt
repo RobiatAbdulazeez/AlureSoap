@@ -59,3 +59,4 @@ It was referencing to the index.cshtml file which was in the folder i deleted fo
 i went back to my home Controller to add the method that displays the content i have under my view folder (views/home/AboutUs.cshtml) and my (views/home/ProductCatelogue.cshtml) 
 Also i had to make changes in the shared layout.cshtml to change the controller to home instead of the file(ProductCatelogue.cs and AboutUs.cs )i previously had
 Good To Go!!!
+
